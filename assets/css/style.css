@@ -639,7 +639,7 @@ button, input, textarea:focus {
 * ----------------------------------------------------------------------------------------
 */
 .atf_header_top {
-	background-color: var(--thm-color)!important;
+	background-color: #003c82 !important;
 	padding: 10px 0;
 	color: rgba(255, 255, 255, 0.8);
 	transition: all 0.3s ease 0s;
@@ -647,7 +647,7 @@ button, input, textarea:focus {
 	z-index: 1040;
 }
 .atf_header_top::after {
-	background: var(--thm-base) none repeat scroll 0 0;
+	background: #12a0d7 none repeat scroll 0 0;
 	content: "";
 	position: absolute;
 	z-index: -1;
@@ -677,7 +677,7 @@ button, input, textarea:focus {
 }
 .atf_header-social li a i:hover{
 	color:  var(--thm-white);
-	background:var(--thm-color);
+	background: #003c82;
 }
 .atf-header-icon i{
 	font-size:40px;
@@ -794,7 +794,7 @@ button, input, textarea:focus {
 #navigation.navbar-fixed #main-menu ul li a:focus,
 #main-menu ul li a:hover,
 #main-menu ul li a:focus{
-	color: var(--thm-color);
+	color: #12a0d7;
 }
 #main-menu ul li > a:hover,
 #main-menu ul li > a:focus{
@@ -1100,7 +1100,7 @@ button, input, textarea:focus {
   width: 50px;
   line-height: 50px;
   border-radius:50%;
-  background: var(--thm-color);
+  background: #12a0d7;
   color: var(--thm-white);
   text-align: center;
   -webkit-box-pack: center;
@@ -1113,7 +1113,7 @@ button, input, textarea:focus {
  }
   
 .atf__header-options-2 .header-search:hover {
-    background: var(--thm-base); 
+    background: #003c82; 
 	color: var(--thm-white);  
  }
   
@@ -4839,4 +4839,8 @@ END TEAM DETAILS DESIGN
 	}
 	
 } */
+
+.titolo{
+	color: white;
+}
 
