@@ -429,7 +429,7 @@ button, input, textarea:focus {
 	text-transform: uppercase;
 }
 .title-color span{
-	color:var(--thm-base)! important;
+	color:#12a0d7! important;
 }
 /*END SECTION TITLE DESIGN*/
 
