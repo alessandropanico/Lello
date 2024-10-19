@@ -4777,7 +4777,7 @@ END TEAM DETAILS DESIGN
 	.slicknav_nav{
 		background-color: var(--thm-base);
 		width:200px;
-		height:250px;
+		height:auto;
 		overflow-y:scroll;
 		float:right;
 	}
