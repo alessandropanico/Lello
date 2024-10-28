@@ -4894,3 +4894,29 @@ button:hover {
 .text-center {
     text-align: center;
 }
+
+/* Stile di base per il pulsante svuota carrello */
+#svuota-carrello {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff6347; /* Colore attivo */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Stile per il pulsante disabilitato */
+#svuota-carrello.disabilitato {
+    background-color: #ccc;  /* Colore disabilitato */
+    color: #888;
+    cursor: not-allowed;     /* Cambia il cursore */
+    box-shadow: none;        /* Rimuove l'ombra */
+    opacity: 0.6;
+}
+
+/* Disabilita anche l’hover */
+#svuota-carrello:not(.disabilitato):hover {
+    background-color: #ff4500; /* Colore al passaggio del mouse */
+}
