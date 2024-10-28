@@ -583,7 +583,7 @@ button, input, textarea:focus {
 	font-weight: 500;
 	text-transform: capitalize;
 	padding: 10px 20px;
-	border: 2px solid var(--thm-9);
+	border: none;
 	border-radius: 4px;
 }
 .atf-themes-btn:focus,
