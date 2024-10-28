@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "Nakama Logo 1",
+        "prezzo": 49.99,
+        "sconto": 59.99,
+        "immagine": "assets/img/feature/1.png",
+        "link": "https://www.tostadora.it/web/nakama-logo/17784031"
+    },
+    {
+        "nome": "Nakama Logo 2",
+        "prezzo": 49.99,
+        "sconto": 59.99,
+        "immagine": "assets/img/feature/2.png",
+        "link": "https://www.tostadora.it/web/nakama-logo/17784026"
+    },
+    {
+        "nome": "Nakama Logo 3",
+        "prezzo": 49.99,
+        "sconto": 59.99,
+        "immagine": "assets/img/feature/1.png",
+        "link": "https://www.tostadora.it/web/nakama-logo/17784015"
+    },
+    {
+        "nome": "Nakama Logo 3",
+        "prezzo": 49.99,
+        "sconto": 59.99,
+        "immagine": "assets/img/feature/2.png",
+        "link": "https://www.tostadora.it/web/nakama-logo/17783999"
+    }
+]

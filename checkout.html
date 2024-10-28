@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body onload="mostraCarrello()">
+    <section id="checkout" class="atf-checkout-area atf-section-padding bg-1">
+        <div class="container">
+            <h1>Il tuo Carrello</h1>
+            <div id="carrello-container"></div>
+            <div class="text-center">
+                <button onclick="localStorage.clear(); mostraCarrello(); alert('Carrello svuotato!');">Svuota il Carrello</button>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/carrello.js"></script>
+</body>
+</html>
